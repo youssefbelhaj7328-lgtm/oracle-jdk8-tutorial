@@ -13,7 +13,7 @@
 
 package com.example;
 
-public class Persona {
+public class Persona extends Object {
 
 	/*
 	 * Una clase en Java es una plantilla a partir de la cual se pueden crear el
@@ -55,7 +55,20 @@ public class Persona {
 
 	double estatura = 1.75;
 	int totalCoches = 2;
+	public Persona() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Persona(String nombre, String primerApilldo, double estatura, int totalCoches) {
+		super();
+		this.nombre = nombre;
+		this.primerApilldo = primerApilldo;
+		this.estatura = estatura;
+		this.totalCoches = totalCoches;
+	}
 
+	
+	
 
 	
 
