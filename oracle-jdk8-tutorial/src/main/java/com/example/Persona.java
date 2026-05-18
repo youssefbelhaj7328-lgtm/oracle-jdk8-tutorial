@@ -55,6 +55,10 @@ public class Persona extends Object {
 
 	double estatura = 1.75;
 	int totalCoches = 2;
+	// El modificador final impide que se pueda cambiar el valor de una variable, 
+			// por lo cual se convierte una variable a una constante.
+			static final String PAIS = "España";	
+	
 	public Persona() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -65,6 +69,9 @@ public class Persona extends Object {
 		this.primerApilldo = primerApilldo;
 		this.estatura = estatura;
 		this.totalCoches = totalCoches;
+		
+		
+		
 	}
 
 	
