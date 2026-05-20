@@ -43,10 +43,19 @@ public class App {
 	/* A la variable salario puedo acceder sin hacer nada en absoluto, porque 
 	* es static y desde un metodo static, como es el metodo main puede acceder a
 	* la misma sin ningun codigo adicional */
+	// // Cambiar el valor de la variable primerApellido, que es privada
+
+ 
 	
-	
-	
-	
-		
-} 
+	// Cambiar el valor de la variable primerApellido, que es privada
+
+	Persona persona1 = new Persona();
+
+	persona1.setPrimerApelldo("bele");
+
+
+	// Comprobando que el valor de la variable primerApellido ha sido cambiado
+
+	System.out.println(persona1.getPrimerApellido());
+	} 
 }
